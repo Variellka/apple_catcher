@@ -10,6 +10,18 @@
     <header>Phaser Apple Catcher</header>
     <main>
       <canvas id="gameCanvas"></canvas>
+      <div id="gameStart" class="gameUI">
+        <h1>apple catcher</h1>
+        <p>you have 20 sec to catch 15 or more apples or you will lose</p>
+        <p>press "start" to start game!</p>
+        <button id="gameStartBtn">START</button>
+      </div>
+      <div id="gameEnd" class="gameUI">
+        <p>game over</p>
+        <h1>you <span id="gameLoseOrWinSpan"></span></h1>
+        <h1>final score: <span id="finalScore"></span></h1>
+        <p>refresh page to start again</p>
+      </div>
     </main>
     <footer>Created by Oxy</footer>
     <script type="module" src="/src/main.js"></script>
